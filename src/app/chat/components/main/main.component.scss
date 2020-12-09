@@ -1,0 +1,21 @@
+.wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .nav-wrapper {
+    height: 30%;
+  }
+
+  .message-area-wrapper {
+    border-style: solid;
+    border-color: #595959;
+    border-width: 0 0 1px 0;
+    height: 100%;
+  }
+
+  .text-area-wrapper {
+    height: 40%;
+  }
+}
